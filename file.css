@@ -177,7 +177,6 @@
 } */
 
 .modal-dialog {
-  max-width: 600px;
   position: relative;
   border: none;
 }
@@ -188,6 +187,8 @@
 
 .modal-header {
   padding-bottom: 0px;
+  padding-top: 25px;
+  padding-left: 25px;
   border-bottom: none;
 }
 
@@ -201,7 +202,7 @@
 
 .modal-txt p {
  text-align: justify;
- font-size: 16px;
+ font-size: 18px;
 
  padding-bottom: 20px;
  font-family: 'Roboto', sans-serif;
@@ -224,7 +225,7 @@
   }
 
   .modal  {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 .image-2 {
@@ -262,11 +263,12 @@
   padding-bottom: 20px;
 }
 
-/* #### Mobile Phones Portrait or Landscape #### */
+/* #### Mobile Phones Portrait or Landscape ####
 @media screen and (max-width: 1000px) {
   .container-bg {
     background-image: none;
   }
+*/
 
 .card-body h2 {
   font-size: 1.5em;
