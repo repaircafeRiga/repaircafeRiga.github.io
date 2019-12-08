@@ -78,7 +78,20 @@
      background-attachment: fixed;
      align-items: center;
      justify-content: center;
-     margin-bottom: 50px;
+}
+
+.container-bg-3 {
+  display:flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url('31517503_1701997026555505_3714802490886062080_o.jpg');
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
 
 .img-1{
@@ -263,12 +276,12 @@
   padding-bottom: 20px;
 }
 
-/* #### Mobile Phones Portrait or Landscape ####
+#### Mobile Phones Portrait or Landscape ####
 @media screen and (max-width: 1000px) {
-  .container-bg {
+
+  /*.container-bg {
     background-image: none;
-  }
-*/
+  }*/
 
 .card-body h2 {
   font-size: 1.5em;
@@ -488,6 +501,7 @@
   font-weight: bold;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 a {
@@ -503,6 +517,9 @@ a:hover {
   color: white;
 }
 
+.h3-white h3 {
+  color: white;
+}
 
 /* #### Mobile Phones Portrait or Landscape #### */
 @media screen and (max-width: 1000px) {
@@ -522,8 +539,8 @@ a:hover {
 }
 
 .padding-b {
- padding-top: 8%;
- padding-bottom: 8%;
+ padding-top: 12%;
+ padding-bottom: 12%;
 }
 
 .padding-bottom {
@@ -533,6 +550,11 @@ a:hover {
 .padding-bottom-80 {
   padding-bottom: 80px;
 }
+
+.padding-top-80 {
+  padding-top: 80px;
+}
+
 .padding-b2 {
   padding-bottom: 50px;
 }
