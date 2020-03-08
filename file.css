@@ -691,6 +691,13 @@ a:hover {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1000px) {
+  .margin-bottom  {
+  margin-bottom: 0px;
+
+  }
+  }
+
 .smaller-text h3 {
   font-size: 2em;
   padding-top: 50px;
