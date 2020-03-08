@@ -109,7 +109,7 @@
 
  .hero-text h1 {
    font-family: 'Roboto', sans-serif;
-   font-size: calc(80px + (112 - 80) * ((100vw - 300px) / (1600 - 300)));;
+   font-size: calc(70px + (120 - 70) * ((100vw - 300px) / (1600 - 300)));;
    color:white;
    margin-top: 0.67em;
    margin-bottom: 0.67em;
@@ -495,7 +495,7 @@
 }
 
 .ena-two-1 h1 {
-  font-size: calc(70px + (80 - 70) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(60px + (80 - 60) * ((100vw - 300px) / (1600 - 300)));
   color: #FF9933;
   text-shadow: 5px 5px black;
   font-weight: bold;
