@@ -71,7 +71,7 @@
    flex-direction: column;
    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
      rgba(0, 0, 0, 0.2)),
-     url('69869148_2438172019594021_578764705904984064_o.jpg');
+     url('69869148_2438172019594021_578764705904984064_o - Copy.jpg');
      align-self: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -109,7 +109,7 @@
 
  .hero-text h1 {
    font-family: 'Roboto', sans-serif;
-   font-size: calc(70px + (120 - 70) * ((100vw - 300px) / (1600 - 300)));;
+   font-size: calc(60px + (120 - 60) * ((100vw - 300px) / (1600 - 300)));;
    color:white;
    margin-top: 0.67em;
    margin-bottom: 0.67em;
@@ -132,8 +132,13 @@
 
  p {
    font-family: 'Roboto', sans-serif;
-   font-size: 18px;
+   font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
  }
+
+.p-22 p {
+   font-size: calc(20px + (22 - 20) * ((100vw - 300px) / (1600 - 300)));
+
+}
 
 .f22 p {
   font-size: 22px;
@@ -148,6 +153,14 @@
   padding-right: 50px;
   padding-left: 50px;
   font-family: 'Roboto', sans-serif;
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media only screen and (max-width: 992px) {
+.liels-teksts {
+  padding-right: 25px;
+  padding-left: 25px;
+}
 }
 
 .liels-teksts p {
@@ -183,6 +196,16 @@
 .container-hover:hover .middle {
   opacity: 1;
 }
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media only screen and (max-width: 700px) {
+
+  .middle {
+    opacity: 1;
+  }
+
+}
+
 
 /* .carousel-item img {
   max-height: 600px;
@@ -237,8 +260,9 @@
     border: 2px solid black;
     color: black;
     background-color: none;
-
   }
+
+
 
   .modal  {
     background: rgba(255, 255, 255, 0.7);
@@ -477,7 +501,7 @@
     }
 
 .ena h1 {
-  font-size: 5em;
+  font-size: calc(53px + (80 - 53) * ((100vw - 300px) / (1600 - 300)));
   color:#01be88;
   text-shadow: 5px 5px black;
   font-weight: bold;
@@ -495,7 +519,7 @@
 }
 
 .ena-two-1 h1 {
-  font-size: calc(60px + (80 - 60) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(53px + (80 - 53) * ((100vw - 300px) / (1600 - 300)));
   color: #FF9933;
   text-shadow: 5px 5px black;
   font-weight: bold;
@@ -503,7 +527,12 @@
 
 @media only screen and (max-width: 992px) {
 
+  .ena h1 {
+    padding-right: 20px;
+    padding-left: 20px;}
+
 .ena-two-1 h1  {
+  padding-top:30px;
   padding-right: 20px;
   padding-left: 20px;
   }  }
@@ -532,12 +561,17 @@
 @media only screen and (max-width: 992px) {
 .ena-two-2 h1 {
   line-height: 50%;
+  padding-top: 0px;
   padding-right: 20px;
   padding-left: 20px;
-}}
+}
+.mobile-pad h1 {
+  padding-top:30px;
+}
+}
 
 .ena-two-3 h1 {
-  font-size: 5em;
+  font-size: calc(53px + (80 - 53) * ((100vw - 300px) / (1600 - 300)));
   color: white;
   font-weight: bold;
   padding-top: 50px;
@@ -546,7 +580,7 @@
 }
 
 .ena-two-4 h1 {
-  font-size: 5em;
+  font-size: calc(53px + (80 - 53) * ((100vw - 300px) / (1600 - 300)));
   color: white;
   font-weight: bold;
   padding-top: 50px;
@@ -555,11 +589,14 @@
 }
 @media only screen and (max-width:992px) {
   .ena-two-4 h1 {
-  font-size: 4em;
   padding-right: 40px;
   padding-left: 40px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px;}
+
+.align-m p {
+  padding-left:0px;
+  padding-right: 0px;
 }
 }
 
@@ -610,14 +647,6 @@ a:hover {
     padding-bottom:50px;
   }
 }
-
-/* #### Mobile Phones Portrait or Landscape #### */
-@media screen and (max-width: 1000px) {
-
-  .ena-two-2 h1 {
-    font-size: 8em;
-  }
-  }
 
   .card-text {
     padding-right: 10px;
