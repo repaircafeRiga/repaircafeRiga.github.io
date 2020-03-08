@@ -156,7 +156,7 @@
 }
 
 /* #### Mobile Phones Portrait or Landscape #### */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 765px) {
 .liels-teksts {
   padding-right: 25px;
   padding-left: 25px;
@@ -198,7 +198,7 @@
 }
 
 /* #### Mobile Phones Portrait or Landscape #### */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 765px) {
 
   .middle {
     opacity: 1;
@@ -262,8 +262,6 @@
     background-color: none;
   }
 
-
-
   .modal  {
     background: rgba(255, 255, 255, 0.7);
 }
@@ -304,7 +302,7 @@
 }
 /*
 #### Mobile Phones Portrait or Landscape #### */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 765px) {
 
 .card-body h2 {
   font-size: 1.7em;
@@ -558,7 +556,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 765px) {
 .ena-two-2 h1 {
   line-height: 50%;
   padding-top: 0px;
@@ -587,7 +585,7 @@
   padding-bottom: 50px;
   text-align: center;
 }
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:765px) {
   .ena-two-4 h1 {
   padding-right: 40px;
   padding-left: 40px;
@@ -722,4 +720,12 @@ a:hover {
   padding: 10px;
   background-size: cover;
   object-fit: contain;
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media only screen and (max-width: 420px) {
+.logo img {
+  padding-left: 40px;
+
+}
 }
