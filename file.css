@@ -726,6 +726,10 @@ a:hover {
 @media only screen and (max-width: 420px) {
 .logo img {
   padding-left: 40px;
+  max-width: 135px;
 
 }
+
+.logo-viens img {
+  max-height: 80px;
 }
