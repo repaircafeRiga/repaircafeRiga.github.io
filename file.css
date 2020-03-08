@@ -708,9 +708,10 @@ a:hover {
 }
 
 .logo img {
-  max-width: 155px;
+  max-width: 145px;
   height:auto;
   padding: 10px;
+  margin-left: 15px;
   background-size: contain;
   object-fit: contain;
 }
@@ -723,13 +724,25 @@ a:hover {
 }
 
 /* #### Mobile Phones Portrait or Landscape #### */
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 765px) {
 .logo img {
   padding-left: 40px;
-  max-width: 135px;
-
+  max-width: 200px;
 }
 
 .logo-viens img {
-  max-height: 80px;
+ max-height: 100px;
+}
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media only screen and (max-width: 410px) {
+.logo img {
+  padding-left: 30px;
+  max-width: 150px;
+}
+
+.logo-viens img {
+ max-height: 95px;
+}
 }
