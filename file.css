@@ -33,15 +33,15 @@
 
  .hero-text {
    /* Sizing */
-       width: auto;
-       height: 70vh;
-       margin: 10%;
+     width: auto;
+     height: 70vh;
+     margin: 10%;
 
-       /* Flexbox stuff */
-       text-align: center;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+   /* Flexbox stuff */
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
 
  body {
@@ -109,7 +109,7 @@
 
  .hero-text h1 {
    font-family: 'Roboto', sans-serif;
-   font-size: 7em;
+   font-size: calc(80px + (112 - 80) * ((100vw - 300px) / (1600 - 300)));;
    color:white;
    margin-top: 0.67em;
    margin-bottom: 0.67em;
@@ -147,12 +147,11 @@
   max-width: 1200px;
   padding-right: 50px;
   padding-left: 50px;
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-family: 'Roboto', sans-serif;
 }
 
-#resp-text p {
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+.liels-teksts p {
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .liels-teksts h3 {
