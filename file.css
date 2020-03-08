@@ -578,8 +578,19 @@ a:hover {
   color: white;
 }
 
+.p-white-nocenter-md {
+	  color: white;}
+}
+
 @media screen and (max-width: 1000px) {
   .p-white p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+  }
+  }
+  @media screen and (max-width: 575px) {
+  .p-white-nocenter-md {
     padding-left: 20px;
     padding-right: 20px;
     text-align:center;
@@ -590,7 +601,7 @@ a:hover {
   color: white;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 575px) {
   .h3-white h3 {
     text-align:center;
     font-size: 1.5em;
