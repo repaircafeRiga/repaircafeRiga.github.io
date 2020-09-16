@@ -602,6 +602,10 @@ a {
   color: white;
 }
 
+.cits-links a {
+  color:#01be88;
+}
+
 /* mouse over link */
 a:hover {
   color: black;
