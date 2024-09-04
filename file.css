@@ -49,7 +49,11 @@
    margin-left: auto;
    margin-right: auto;
  }
-
+ .docu {
+   color: #01be88;
+   text-decoration: none;
+   font-size: 1.5em;
+ }
  .container-bg {
    display:flex;
    flex-direction: column;
